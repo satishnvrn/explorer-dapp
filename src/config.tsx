@@ -15,8 +15,9 @@ export const sampleAuthenticatedDomains = [TOOLS_API_URL];
 export const dAppName = "Itheum Explorer";
 
 export const CANTINA_CORNER_NONCES = [50, 51, 52];
-
+console.log(process.env.REACT_APP_ENV_NETWORK);
 export const TRAILBLAZER_NONCES = process.env.REACT_APP_ENV_NETWORK && process.env.REACT_APP_ENV_NETWORK === EnvironmentsEnum.devnet ? [407, 423, 453] : [1];
+export const LOCKI3D_NONCES = [547];
 export const MULTIVERSX_BUBBLE_NONCES = process.env.REACT_APP_ENV_NETWORK && process.env.REACT_APP_ENV_NETWORK === EnvironmentsEnum.devnet ? [416, 491] : [2];
 export const MULTIVERSX_INFOGRAPHICS_NONCES =
   process.env.REACT_APP_ENV_NETWORK && process.env.REACT_APP_ENV_NETWORK === EnvironmentsEnum.devnet ? [469, 476, 480, 490] : [3];
@@ -36,5 +37,5 @@ export const MAINNET_EXPLORER_ADDRESS = "https://explorer.multiversx.com";
 
 export const SUPPORTED_APPS =
   process.env.REACT_APP_ENV_NETWORK && process.env.REACT_APP_ENV_NETWORK === EnvironmentsEnum.devnet
-    ? ["itheumtrailblazer", "multiversxbubbles", "esdtBubble", "playstationgamerpassport", "multiversxinfographics"]
-    : ["itheumtrailblazer", "multiversxbubbles", "multiversxinfographics"];
+    ? ["itheumtrailblazer", "multiversxbubbles", "esdtBubble", "playstationgamerpassport", "multiversxinfographics", "Locki3d"]
+    : ["itheumtrailblazer", "multiversxbubbles", "multiversxinfographics", "Locki3d"];

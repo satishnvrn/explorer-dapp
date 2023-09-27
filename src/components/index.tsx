@@ -8,3 +8,4 @@ export * from "./ElrondAddressLink";
 export * from "./sdkDappComponents";
 export * from "./TrailBlazerModal";
 export * from "./ZoomableSvg";
+export * from "./Locki3DModal";

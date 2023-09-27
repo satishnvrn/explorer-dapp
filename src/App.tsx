@@ -42,6 +42,7 @@ export const App = () => {
                   <Route path={`${routeNames.itheumtrailblazer}/:targetNonce/:targetMessageToBeSigned`} element={<ItheumTrailblazer />} />
                   <Route path={`${routeNames.multiversxbubbles}/:targetNonce/:targetMessageToBeSigned`} element={<MultiversxBubbles />} />
                   <Route path={`${routeNames.multiversxinfographics}/:targetNonce/:targetMessageToBeSigned`} element={<MultiversxInfographics />} />
+                  <Route path={`${routeNames.itheumtrailblazer}/:targetNonce/:targetMessageToBeSigned`} element={<ItheumTrailblazer />} />
                   <Route path={`${routeNames.mywallet}/:targetNonce/:targetMessageToBeSigned`} element={<MyWallet />} />
                   <Route path="*" element={<PageNotFound />} />
                 </Routes>

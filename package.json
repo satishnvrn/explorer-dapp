@@ -47,7 +47,8 @@
     "styled-components": "5.3.11",
     "tailwind-merge": "1.14.0",
     "tailwindcss-animate": "1.0.6",
-    "web-vitals": "1.0.1"
+    "web-vitals": "1.0.1",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "REACT_APP_VERSION=$(node -pe 'require(\"./package.json\").version') react-app-rewired start",

@@ -10,6 +10,7 @@ import {
   EsdtBubble,
   MultiversxBubbles,
   MultiversxInfographics,
+  Locki3d,
 } from "./pages";
 
 export const routeNames = {
@@ -23,6 +24,7 @@ export const routeNames = {
   esdtBubble: "/esdt-bubbles",
   multiversxbubbles: "/multiversx-bubbles",
   multiversxinfographics: "/multiversx-infographics",
+  Locki3d: "/Locki3d",
 };
 
 interface RouteWithTitleType extends RouteType {
@@ -81,6 +83,12 @@ export const routes: RouteWithTitleType[] = [
     path: routeNames.multiversxinfographics,
     title: "MultiversX Infographics",
     component: MultiversxInfographics,
+    authenticatedRoute: false,
+  },
+  {
+    path: routeNames.Locki3d,
+    title: "Locki3d Construction",
+    component: Locki3d,
     authenticatedRoute: false,
   },
 ];
